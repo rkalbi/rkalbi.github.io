@@ -1,7 +1,9 @@
 /* Add your CSS styles here */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
+    background-color: #330033;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -59,7 +61,7 @@ h2 {
 }
 
 .job .job-dates {
-    color: #666;
+    color: #94b8b8;
     margin-bottom: 5px;
 }
 
@@ -93,6 +95,7 @@ h2 {
 .company-entity {
     margin-top: 12px;
     font-weight: bold;
+    color: #f2f2f2;
 }
 
 ul {
@@ -103,10 +106,6 @@ ul {
 
 ul li {
     margin-bottom: 5px;
-}
-
-.skills-section {
-    margin-bottom: 30px;
 }
 
 .skills-section h2 {
