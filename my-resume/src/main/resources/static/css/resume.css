@@ -1,0 +1,173 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.section-content {
+    display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.section-content.expanded {
+    display: inline-block;
+}
+
+.resume-section {
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.resume-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.job .job-dates {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.job .job-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.resume-section {
+    margin-bottom: 30px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.job-dates {
+    font-weight: bold;
+}
+
+.company-entity {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.skills-section {
+    margin-bottom: 30px;
+}
+
+.skills-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skill-category {
+    margin-bottom: 20px;
+}
+
+.skill-category h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.skill-circle {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.skill-circle:last-child {
+    margin-right: 0;
+}
+
+.skill-level {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.skill-expertise {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+
+.contact-me {
+    margin-top: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 75px;
+}
+.social-media-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+}
